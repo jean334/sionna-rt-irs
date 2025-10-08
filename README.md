@@ -5,6 +5,7 @@
 This repository is based on **Sionna RT**, the ray-tracing package from [Sionna](https://nvlabs.github.io/sionna/), version **1.0.2**.
 This repository includes original components from NVIDIA Sionna RT (Apache 2.0 License)
 and new code developed by Jean ACKER under the same license.
+
 ---
 
 ### Installation
@@ -102,6 +103,13 @@ The radio map is also measured 1 m above the ground, providing a visualization o
 A GIF animation is available, showing the temporal evolution of the IRS phase profile and its impact on the propagation in the scene.
 
 
+
+ |                     Phase Profile                       |                     Radio map                       | Radio map bird cam                                      |
+ |------------------------------------------------------   |  ------------------------------------------------   |  -----------------------------------------------------|
+ | <img src="ressources/phase_profile.gif" alt="phase_profile" width="200"/> | <img src="ressources/rm_cam2.gif" alt="radio map" width="200"/> | <img src="ressources/rm_bird_cam.gif" alt="radio map" width="200"/> |
+         
+
+
 ### Citation
 ---
 If you use this code in your research, please cite both **Sionna RT** and this work.
@@ -130,7 +138,7 @@ If you use or reference the IRS implementation provided in this repository, plea
  author    = {Jean ACKER},   
  title     = {IRS Extension for Sionna RT},   
  year      = {2025},   
- url       = {https://github.com/cir-lab/irs-sionna-rt},   
+ url       = {https://github.com/jean334/sionna-rt-irs},   
  note      = {An extension of Sionna RT enabling Intelligent Reflecting Surface (IRS) simulation and optimization.} 
  }
 ```
